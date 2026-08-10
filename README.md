@@ -15,14 +15,16 @@ Git Tree는 원격 Git 저장소의 모든 브랜치를 브랜치 이름과 같�
 
 ## 다운로드
 
-현재 정식 버전은 **1.2.0**입니다.
+현재 정식 버전은 **1.0.0**입니다.
+
+다운로드 파일명은 버전과 무관하게 고정되므로 다음 릴리스에서도 같은 최신 다운로드 링크를 사용할 수 있습니다.
 
 | 대상 | 다운로드 |
 | --- | --- |
-| Windows x86_64 installer | [`Git-Tree-v1.2.0-Windows-x86_64-Setup.exe`](https://github.com/stack1245/Git-Tree/releases/latest/download/Git-Tree-v1.2.0-Windows-x86_64-Setup.exe) |
-| macOS Apple Silicon installer | [`Git-Tree-v1.2.0-macOS-arm64.pkg`](https://github.com/stack1245/Git-Tree/releases/latest/download/Git-Tree-v1.2.0-macOS-arm64.pkg) |
-| macOS Intel installer | [`Git-Tree-v1.2.0-macOS-x86_64.pkg`](https://github.com/stack1245/Git-Tree/releases/latest/download/Git-Tree-v1.2.0-macOS-x86_64.pkg) |
-| SHA-256 체크섬 | [`Git-Tree-v1.2.0-SHA256SUMS.txt`](https://github.com/stack1245/Git-Tree/releases/latest/download/Git-Tree-v1.2.0-SHA256SUMS.txt) |
+| Windows x86_64 installer | [`Git-Tree-Windows-x86_64-Setup.exe`](https://github.com/stack1245/Git-Tree/releases/latest/download/Git-Tree-Windows-x86_64-Setup.exe) |
+| macOS Apple Silicon installer | [`Git-Tree-macOS-arm64.pkg`](https://github.com/stack1245/Git-Tree/releases/latest/download/Git-Tree-macOS-arm64.pkg) |
+| macOS Intel installer | [`Git-Tree-macOS-x86_64.pkg`](https://github.com/stack1245/Git-Tree/releases/latest/download/Git-Tree-macOS-x86_64.pkg) |
+| SHA-256 체크섬 | [`Git-Tree-SHA256SUMS.txt`](https://github.com/stack1245/Git-Tree/releases/latest/download/Git-Tree-SHA256SUMS.txt) |
 
 앱을 실행할 컴퓨터에는 [Git](https://git-scm.com/downloads)이 설치되어 있어야 합니다.
 
@@ -36,9 +38,9 @@ Git Tree는 원격 Git 저장소의 모든 브랜치를 브랜치 이름과 같�
 
 Windows Setup은 기본적으로 `%LOCALAPPDATA%\Programs\Git Tree`에 설치되고 시작 메뉴와 **설정 → 앱 → 설치된 앱**에 등록됩니다. macOS PKG는 `/Applications/GitTree.app`에 설치되고 패키지 receipt를 등록합니다.
 
-Git Tree 1.2.0부터 화면 오른쪽 위의 **업데이트 확인**으로 새 버전을 받을 수 있으며, 앱 실행 후 하루 한 번 자동 확인도 수행합니다. 업데이트 정보의 Ed25519 서명과 installer의 공식 GitHub 주소, 파일명, 크기, SHA-256을 모두 검증한 뒤 운영체제 installer를 엽니다.
+Git Tree 1.0.0부터 화면 오른쪽 위의 **업데이트 확인**으로 새 버전을 받을 수 있으며, 앱 실행 후 하루 한 번 자동 확인도 수행합니다. 업데이트 정보의 Ed25519 서명과 installer의 공식 GitHub 주소, 파일명, 크기, SHA-256을 모두 검증한 뒤 운영체제 installer를 엽니다.
 
-1.1.0과 이전 버전에는 업데이트 기능이 없으므로 1.2.0 installer는 한 번 직접 설치해야 합니다. 이후 버전은 앱에서 다운로드할 수 있습니다.
+1.0.0은 운영체제 installer와 앱 내 업데이트를 포함한 첫 정식 배포입니다. 다음 버전부터는 앱에서 다운로드할 수 있습니다.
 
 ## macOS에서 처음 설치하기
 
